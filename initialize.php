@@ -19,18 +19,18 @@
   define("WWW_ROOT", $doc_root);
 
   // these files are required once here so they load on every page
-  /*require_once('functions.php');
+  require_once('functions.php');
   require_once('db_config.php');
-  require_once('database_functions.php');*/
+  require_once('database_functions.php');
 
   // Load class definitions manually
   // -> Individually
 
-  /*require_once('classes/databaseobject.class.php');
-  require_once('classes/user.class.php');
-  require_once('classes/blog.class.php');
-  require_once('classes/contract.class.php');
-  require_once('classes/session.class.php');*/
+  require_once('classes/databaseobject.php');
+  require_once('classes/sample1.class.php');
+  require_once('classes/sample2.class.php');
+  require_once('classes/sample3.class.php');
+  require_once('classes/session.class.php');
 
 
   // -> All classes in directory
