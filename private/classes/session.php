@@ -17,6 +17,7 @@ class Session {
 	}
 	return true;
 }
+//test comment
 
 public function is_logged_in() {
 	return isset($this->admin_id);
