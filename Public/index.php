@@ -1,6 +1,6 @@
 <?php
 require_once("../private/initialize.php");
-/*if(is_post_request()){
+if(is_post_request()){
 
   $userName = $_POST['userName'];
   $password = $_POST['password'];
@@ -14,14 +14,14 @@ require_once("../private/initialize.php");
   else {
     echo "Passwords do not match";
   }
-}*/
+}
 ?>
 
 <html>
   <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width">
-    <title>Blog Manager | Login Page</title>
+    <title>COGS Manager | Login Page</title>
     <link rel="stylesheet" href="stylesheets/styles.css?modified=211009">
 </head>
 
@@ -29,7 +29,7 @@ require_once("../private/initialize.php");
     <header>
       <div class="container">
         <div id="branding">
-          <h1><span class="highlight">Blog</span> Manager</h1>
+          <h1><span class="highlight">COGS</span> Manager</h1>
       </div>
       <nav>
 

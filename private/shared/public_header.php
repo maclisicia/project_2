@@ -15,14 +15,15 @@
     <header>
       <div class="container">
         <div id="branding">
-          <h1><span class="highlight">Blog</span> Manager</h1>
+          <h1><span class="highlight">Invoice and COGS</span> Manager</h1>
         </div>
         <nav>
           <ul>
             <li <?php if ($current == 'home') {echo 'class="current"';} ?>><a href="<?php echo WWW_ROOT?>/home.php">Home</a></li>
-            <li <?php if ($current == 'user') {echo 'class="current"';} ?>><a href="<?php echo WWW_ROOT?>/user/index.php">Users</a></li>
-            <li <?php if ($current == 'blog') {echo 'class="current"';} ?>><a href="<?php echo WWW_ROOT?>/blog/index.php">Blogs</a></li>
-            <li <?php if ($current == 'report') {echo 'class="current"';} ?>><a href="<?php echo WWW_ROOT?>/report/index.php">Report</a></li>
+            <li <?php if ($current == 'users') {echo 'class="current"';} ?>><a href="<?php echo WWW_ROOT?>/user/index.php">Users</a></li>
+            <li <?php if ($current == 'invoices') {echo 'class="current"';} ?>><a href="<?php echo WWW_ROOT?>/blog/index.php">Invoices/a></li>
+            <li <?php if ($current == 'cogs') {echo 'class="current"';} ?>><a href="<?php echo WWW_ROOT?>/report/index.php">COGS</a></li>
+            <li <?php if ($current == 'inventory') {echo 'class="current"';} ?>><a href="<?php echo WWW_ROOT?>/report/index.php">Inventory</a></li>
             <li <?php if ($current == 'logout') {echo 'class="current"';} ?>><a href="<?php echo WWW_ROOT?>/logout.php">Logout</a></li>
           </ul>
         </nav>

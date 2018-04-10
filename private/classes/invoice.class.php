@@ -1,23 +1,23 @@
 <?php
-class User extends databaseObject
+class Invoice extends databaseObject
 {
 
-  static protected $table_name = 'user';
+  static protected $table_name = 'invoice';
 
-  static protected $db_columns = ['userid', 'userName', 'password', 'firstName'];
+  static protected $db_columns = ['invoiceid', 'manufacturer', 'referenceNum', 'amount'];
 
-public $userid;
-public $userName;
-public $password;
-public $firstName;
+public $invoiceid;
+public $manufacturer;
+public $referenceNum;
+public $amount;
 
 
 // construct method
 public function __construct($args=[]) {
-  $this->userid = $args['userid'] ?? NULL;
-  $this->userName = $args['userName'] ?? '';
-  $this->password = $args['password'] ?? '';
-  $this->firstName = $args['firstName'] ?? '';
+  $this->invoiceid = $args['invoiceid'] ?? NULL;
+  $this->manufacturer = $args['manufacturer'] ?? '';
+  $this->referenceNum = $args['referenceNum'] ?? '';
+  $this->amount = $args['amount'] ?? '';
 }
 
 // remember to return out a value since this is a function.
